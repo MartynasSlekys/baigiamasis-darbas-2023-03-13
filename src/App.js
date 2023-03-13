@@ -8,7 +8,7 @@ import Project from './routes/Project';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
