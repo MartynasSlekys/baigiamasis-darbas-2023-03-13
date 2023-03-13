@@ -22,12 +22,12 @@ const NavigationBar = () => {
 
   return (
     <div className={navColorChange ? "header-wrapper header-wrapper-bg" : "header-wrapper"}>
-        <Link to="/">
+        <Link to="/home">
             <h1>React</h1>
         </Link>
         <ul className={hamburger ? "navbar-menu-list active" : "navbar-menu-list"}>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
             </li>
             <li>
                 <Link to="/about">About</Link>
