@@ -10,7 +10,7 @@ const NavigationBar = () => {
 
     const clickHamburgerHandler = () => setHamburger(!hamburger);
     const changeNavBarColor = () => {
-        if (window.scrollY >= 1) {
+        if (window.scrollY >= 100) {
             setNavColorChange(true);
         } else {
             setNavColorChange(false);
